@@ -1,0 +1,54 @@
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+  
+.fade-in {
+    animation: fade-in 1.5s ease-in-out;
+}
+  
+@keyframes navbar-scroll-down {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+  
+.navbar-scroll-down {
+    animation: navbar-scroll-down 1.5s ease-in-out;
+}
+
+@keyframes hero-bg-astronaut-scroll-top {
+    0% {
+        margin-top: 1rem;
+    }
+    100% {
+        margin-top: 0;
+    }
+}
+  
+.hero-bg-astronaut-scroll-top {
+    animation: hero-bg-astronaut-scroll-top 1.5s ease-in-out;
+}
+
+@keyframes hero-person-astrounaut {
+    0% {
+        top: -.85rem;
+    }
+    50% {
+        top: 0;
+    }
+    100% {
+        top: -.85rem;
+    }
+}
+  
+.hero-person-astrounaut {
+    animation: hero-person-astrounaut 1.85s ease-in-out infinite;
+}
