@@ -9,8 +9,9 @@
   <meta name="twitter:title" content="Digital Deals" />
   <meta name="og:title" content="Digital Deals" />
   <meta name="og:type" content="website" />
-  <link rel="icon" href="/assets/img/iconos/favicon.png" />
+  <link rel="preload" href="assets/img/portada/hero-bg-astronaut.webp" as="image">
   <title>Digital Deals</title>
+  <link rel="icon" href="/assets/img/iconos/favicon.png" />
   <link rel="stylesheet" href="css/general.css">
   <link rel="stylesheet" href="css/animations.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-3jpRDme9vK3M99Ne2CzflXhuUwpuZPBKZvi9IOu3Fkl9m76c5XlI8D4VBN/6z2Gr6AWVQG3NQJBQFFjtBMUJlw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -43,9 +44,9 @@
           <h1>Digital <span>Deals</span></h1>
           <p id="hero-txt-tagline"></p>
         </div>
-        <img src="assets/img/portada/hero-person-astronaut.png" alt="hero-person-astronaut" class="img-person-astronaut hero-person-astrounaut">
-        <img src="assets/img/portada/hero-bg-astronaut-min.webp" alt="hero-bg-astronaut" class="main-image hero-bg-astronaut-scroll-top">
-        <img src="assets/img/contenido/circulo.jpg" alt="Astronaut Small" class="small-image">
+        <img src="assets/img/portada/hero-person-astronaut.png" alt="hero-person-astronaut" class="img-person-astronaut hero-person-astrounaut" loading="eager">
+        <img src="assets/img/portada/hero-bg-astronaut.webp" alt="hero-bg-astronaut" class="main-image fade-in hero-bg-astronaut-scroll-top" loading="eager">
+        <img src="assets/img/contenido/circulo.jpg" alt="Astronaut Small" class="small-image" loading="lazy">
       </div>
     </section>
 
@@ -54,12 +55,12 @@
       <div class="hero__content">
         <p>At Digital Deals, we are dedicated to transforming and enhancing your business through innovative digital solutions and cutting-edge technological services...</p>
         <div class="behance-grid">
-          <iframe src="https://www.behance.net/embed/project/121143793?ilo0=1" height="350" width="400" allowfullscreen lazyload scrolling="no" frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
-            <iframe src="https://www.behance.net/embed/project/178371303?ilo0=1" height="350" width="400" allowfullscreen lazyload scrolling="no" frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
-            <iframe src="https://www.behance.net/embed/project/107628499?ilo0=1" height="350" width="400" allowfullscreen lazyload scrolling="no" frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
-            <iframe src="https://www.behance.net/embed/project/132837023?ilo0=1" height="350" width="400" allowfullscreen lazyload scrolling="no" frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
-            <iframe src="https://www.behance.net/embed/project/177846317?ilo0=1" height="350" width="400" allowfullscreen lazyload scrolling="no" frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
-            <iframe src="https://www.behance.net/embed/project/178367131?ilo0=1" height="350" width="400" allowfullscreen lazyload scrolling="no" frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
+          <iframe loading="lazy" src="https://www.behance.net/embed/project/121143793?ilo0=1" height="350" width="400" allowfullscreen lazyload scrolling="no" frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
+            <iframe loading="lazy" src="https://www.behance.net/embed/project/178371303?ilo0=1" height="350" width="400" allowfullscreen lazyload scrolling="no" frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
+            <iframe loading="lazy" src="https://www.behance.net/embed/project/107628499?ilo0=1" height="350" width="400" allowfullscreen lazyload scrolling="no" frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
+            <iframe loading="lazy" src="https://www.behance.net/embed/project/132837023?ilo0=1" height="350" width="400" allowfullscreen lazyload scrolling="no" frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
+            <iframe loading="lazy" src="https://www.behance.net/embed/project/177846317?ilo0=1" height="350" width="400" allowfullscreen lazyload scrolling="no" frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
+            <iframe loading="lazy" src="https://www.behance.net/embed/project/178367131?ilo0=1" height="350" width="400" allowfullscreen lazyload scrolling="no" frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
         </div>
       </div>
     </section>
@@ -72,7 +73,7 @@
       <div class="cards">
         <div class="card">
           <a href="https://www.conectoresdentales.com/" target="_blank">
-            <img src="assets/img/ss-trabajos/ssconectoresdentales.png" alt="conectoresdigitales">
+            <img loading="lazy" src="assets/img/ss-trabajos/ssconectoresdentales.png" alt="conectoresdigitales">
           </a>
           <div class="text-card">
             <h2>Conectores Dentales</h2>
@@ -83,7 +84,7 @@
 
         <div class="card">
           <a href="https://defiscal.com.mx/" target="_blank">
-            <img src="assets/img/ss-trabajos/ssdefiscal.png" alt="defiscal">
+            <img loading="lazy" src="assets/img/ss-trabajos/ssdefiscal.png" alt="defiscal">
           </a>
           <div class="text-card">
             <h2>Defiscal</h2>
@@ -93,7 +94,7 @@
 
         <div class="card">
           <a href="https://hafaspot.net/" target="_blank">
-            <img src="assets/img/ss-trabajos/sshafaspot.png" alt="hafaspot">
+            <img loading="lazy" src="assets/img/ss-trabajos/sshafaspot.png" alt="hafaspot">
           </a>
           <div class="text-card">
             <h2>Hafaspot Ecommerce</h2>
@@ -103,7 +104,7 @@
 
         <div class="card">
           <a href="https://mexsafe.com.mx/"  target="_blank">
-            <img src="assets/img/ss-trabajos/ssmexsafe.png" alt="mexsafe">
+            <img loading="lazy" src="assets/img/ss-trabajos/ssmexsafe.png" alt="mexsafe">
           </a>
           <div class="text-card">
             <h2>Mexasafe</h2>
@@ -113,7 +114,7 @@
 
         <div class="card">
           <a target="_blank">
-            <img src="assets/img/ss-trabajos/ssam.png" alt="am">
+            <img loading="lazy" src="assets/img/ss-trabajos/ssam.png" alt="am">
           </a>
           <div class="text-card">
             <h2>Aeroméxico</h2>
@@ -123,7 +124,7 @@
 
         <div class="card">
           <a href="https://www.proenergy.com.mx/"  target="_blank">
-            <img src="assets/img/ss-trabajos/ssproenergy.png" alt="proenergy">
+            <img loading="lazy" src="assets/img/ss-trabajos/ssproenergy.png" alt="proenergy">
           </a>
           <div class="text-card">
             <h2>Proenergy</h2>
@@ -133,7 +134,7 @@
 
         <div class="card">
           <a href="https://sicc.com.mx/"  target="_blank">
-            <img src="assets/img/ss-trabajos/sssicc.png" alt="sicctechnology">
+            <img loading="lazy" src="assets/img/ss-trabajos/sssicc.png" alt="sicctechnology">
           </a>
           <div class="text-card">
             <h2>SICC Technology</h2>
@@ -143,7 +144,7 @@
 
         <div class="card">
           <a href="https://tgoat.org/"  target="_blank">
-            <img src="assets/img/ss-trabajos/sstgoat.png" alt="tgoat">
+            <img loading="lazy" src="assets/img/ss-trabajos/sstgoat.png" alt="tgoat">
           </a>
           <div class="text-card">
             <h2>Tgoat</h2>
